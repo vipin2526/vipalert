@@ -1,10 +1,10 @@
 ## vipalert
 
-## CDN Link
+## cdn script
 ``` bash
-https://cdn.jsdelivr.net/gh/xmartcoder/vipalert@main/cdn/vipalert.js
+<script src="https://cdn.jsdelivr.net/gh/xmartcoder/vipalert@main/cdn/vipalert.js"></script>
 ```
-#### Add this link in your html page head tag and call the function vipalert("message",time);
+#### Add this script in your html page head tag and call the function vipalert("message",time);
 #### time should be in seconds like --> 3000,4000 etc
 #### message can be anything with single or double qoutes
 
