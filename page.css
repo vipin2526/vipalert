@@ -1,0 +1,42 @@
+.alertbox {
+  border: 10px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0 rgb(70, 70, 70);
+
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  padding: 50px;
+  height: min-content;
+  width: min(min-content, 500px);
+  min-width: 200px;
+  top: 0%;
+  left: 50%;
+  visibility: hidden;
+  transform: translate(-50%, -50%) scale(.1);
+  transition: transform .4s, top .4s;
+}
+
+.pop_up {
+  transform: translate(-50%, -50%) scale(1);
+  visibility: visible;
+  top: 20%;
+}
+
+.page {
+  text-align: center;
+  height: 100vh;
+  background-image: url('static/bg.jpg');
+  background-size: cover;
+}
+
+button {
+  margin-top: 300px;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: white;
+}
